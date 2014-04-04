@@ -1,0 +1,512 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html;">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=320, target-densitydpi=device-dpi">
+        <style type="text/css">
+/* Mobile-specific Styles */
+@media only screen and (max-width: 660px) { 
+table[class=w0], td[class=w0] { width: 0 !important; }
+table[class=w10], td[class=w10], img[class=w10] { width:10px !important; }
+table[class=w15], td[class=w15], img[class=w15] { width:5px !important; }
+table[class=w30], td[class=w30], img[class=w30] { width:10px !important; }
+table[class=w60], td[class=w60], img[class=w60] { width:10px !important; }
+table[class=w125], td[class=w125], img[class=w125] { width:80px !important; }
+table[class=w130], td[class=w130], img[class=w130] { width:55px !important; }
+table[class=w140], td[class=w140], img[class=w140] { width:90px !important; }
+table[class=w160], td[class=w160], img[class=w160] { width:180px !important; }
+table[class=w170], td[class=w170], img[class=w170] { width:100px !important; }
+table[class=w180], td[class=w180], img[class=w180] { width:80px !important; }
+table[class=w195], td[class=w195], img[class=w195] { width:80px !important; }
+table[class=w220], td[class=w220], img[class=w220] { width:80px !important; }
+table[class=w240], td[class=w240], img[class=w240] { width:180px !important; }
+table[class=w255], td[class=w255], img[class=w255] { width:185px !important; }
+table[class=w275], td[class=w275], img[class=w275] { width:135px !important; }
+table[class=w280], td[class=w280], img[class=w280] { width:135px !important; }
+table[class=w300], td[class=w300], img[class=w300] { width:140px !important; }
+table[class=w325], td[class=w325], img[class=w325] { width:95px !important; }
+table[class=w360], td[class=w360], img[class=w360] { width:140px !important; }
+table[class=w410], td[class=w410], img[class=w410] { width:180px !important; }
+table[class=w470], td[class=w470], img[class=w470] { width:200px !important; }
+table[class=w580], td[class=w580], img[class=w580] { width:280px !important; }
+table[class=w640], td[class=w640], img[class=w640] { width:300px !important; }
+table[class*=hide], td[class*=hide], img[class*=hide], p[class*=hide], span[class*=hide] { display:none !important; }
+table[class=h0], td[class=h0] { height: 0 !important; }
+p[class=footer-content-left] { text-align: center !important; }
+#headline p { font-size: 30px !important; }
+.article-content, #left-sidebar{ -webkit-text-size-adjust: 90% !important; -ms-text-size-adjust: 90% !important; }
+.header-content, .footer-content-left {-webkit-text-size-adjust: 80% !important; -ms-text-size-adjust: 80% !important;}
+img { height: auto; line-height: 100%;}
+ } 
+/* Client-specific Styles */
+#outlook a { padding: 0; }	/* Force Outlook to provide a "view in browser" button. */
+body {
+    width: 100% !important;
+}
+.ReadMsgBody { width: 100%; }
+.ExternalClass { width: 100%; display:block !important; } /* Force Hotmail to display emails at full width */
+/* Reset Styles */
+/* Add 100px so mobile switch bar doesn't cover street address. */
+body {
+    background-color: #dedede;
+    margin: 0;
+    padding: 0;
+}
+img {
+    outline: none;
+    text-decoration: none;
+    display: block;
+}
+br, strong br, b br, em br, i br {
+    line-height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 100% !important;
+    -webkit-font-smoothing: antialiased;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: blue !important;
+}
+h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+    color: red !important;
+}
+/* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+    color: purple !important;
+}
+/* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */  
+table td, table tr {
+    border-collapse: collapse;
+}
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, .yshortcuts a:hover, .yshortcuts a span {
+    color: black;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    background: none !important;
+}	/* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+/* This most probably won't work in all email clients. Don't include code blocks in email. */
+code {
+  white-space: normal;
+  word-break: break-all;
+}
+#background-table {
+    background-color: #dedede;
+}
+/* Webkit Elements */
+#top-bar {
+    border-radius:6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius:6px 6px 0px 0px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #c7c7c7;
+    color: #f5f5f5;
+}
+#top-bar a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer {
+    border-radius:0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius:0px 0px 6px 6px;
+    -webkit-font-smoothing: antialiased;
+}
+/* Fonts and Content */
+body, td {
+    font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+.header-content, .footer-content-left, .footer-content-right {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
+.header-content {
+    font-size: 12px;
+    color: #f5f5f5;
+}
+.header-content a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+#headline p {
+    color: #444444;
+    font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+#headline p a {
+    color: #444444;
+    text-decoration: none;
+}
+.article-title {
+    font-size: 18px;
+    line-height:24px;
+    color: #b0b0b0;
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:18px;
+    font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+.article-title a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+.article-title.with-meta {
+    margin-bottom: 0;
+}
+.article-meta {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ccc;
+    font-weight: bold;
+    margin-top: 0;
+}
+.article-content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+.article-content a {
+    color: #2f82de;
+    font-weight:bold;
+    text-decoration:none;
+}
+.article-content img {
+    max-width: 100%;
+}
+.article-content ol, .article-content ul {
+    margin-top:0px;
+    margin-bottom:18px;
+    margin-left:19px;
+    padding:0;
+}
+.article-content li {
+    font-size: 13px;
+    line-height: 18px;
+    color: #444444;
+}
+.article-content li a {
+    color: #2f82de;
+    text-decoration:underline;
+}
+.article-content p {
+    margin-bottom: 15px;
+}
+.footer-content-left {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ededed;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.footer-content-left a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-content-right {
+    font-size: 11px;
+    line-height: 16px;
+    color: #ededed;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.footer-content-right a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer {
+    background-color: #c7c7c7;
+    color: #ededed;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#permission-reminder {
+    white-space: normal;
+}
+#street-address {
+    color: #b0b0b0;
+    white-space: normal;
+}
+</style>
+<!--[if gte mso 9]>
+<style _tmplitem="544" >
+.article-content ol, .article-content ul {
+   margin: 0 0 0 24px;
+   padding: 0;
+   list-style-position: inside;
+}
+</style>
+<![endif]--></head><body><table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">
+	<tbody><tr>
+		<td align="center" bgcolor="#dedede">
+        	<table class="w640" style="margin:0 10px;" width="640" cellpadding="0" cellspacing="0" border="0">
+            	<tbody><tr><td class="w640" width="640" height="20"></td></tr>
+                
+            	<tr>
+                	<td class="w640" width="640">
+                        <table id="top-bar" class="w640" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+    <tbody><tr>
+        <td class="w15" width="15"></td>
+        <td class="w325" width="350" valign="middle" align="left">
+            <table class="w325" width="350" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr><td class="w325" width="350" height="8"></td></tr>
+            </tbody></table>
+            <table class="w325" width="350" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr><td class="w325" width="350" height="8"></td></tr>
+            </tbody></table>
+        </td>
+        <td class="w30" width="30"></td>
+        <td class="w255" width="255" valign="middle" align="right">
+            <table class="w255" width="255" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr><td class="w255" width="255" height="8"></td></tr>
+            </tbody></table>
+            <table cellpadding="0" cellspacing="0" border="0">
+    <tbody><tr>
+        
+        
+        
+    </tr>
+</tbody></table>
+            <table class="w255" width="255" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr><td class="w255" width="255" height="8"></td></tr>
+            </tbody></table>
+        </td>
+        <td class="w15" width="15"></td>
+    </tr>
+</tbody></table>
+                        
+                    </td>
+                </tr>
+                <tr>
+                <td id="header" class="w640" width="640" align="center" bgcolor="#ffffff">
+    
+    <div align="center" style="text-align: center">
+        
+        <img id="customHeaderImage" label="Header Image" editable="true" width="640" src="http://s5.hostingkartinok.com/uploads/images/2013/11/a470e8a8e9702585bb51e313dcea3529.jpg" class="w640" border="0" align="top" style="display: inline">
+        
+    </div>
+    
+    
+</td>
+                </tr>
+                
+                <tr><td class="w640" width="640" height="30" bgcolor="#ffffff"></td></tr>
+                <tr id="simple-content-row"><td class="w640" width="640" bgcolor="#ffffff">
+    <table class="w640" width="640" cellpadding="0" cellspacing="0" border="0">
+        <tbody><tr>
+            <td class="w30" width="30"></td>
+            <td class="w580" width="580">
+                <repeater>
+                    
+                    <layout label="Text only">
+                        <table class="w580" width="580" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr>
+                                <td class="w580" width="580">
+                                    <p align="left" class="article-title"><singleline label="Title">Дорогие друзья, участники проектов  Академии ментальной эволюции человека! </singleline></p>
+                                    <div align="left" class="article-content">
+                                        <multiline label="Description">Благодарим Вас за то, что Вы на протяжении многих лет с нами!
+                                            Сообщаем Вам о праздничных новогодних и рождественских проектах:
+
+                                        </multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="10"></td></tr>
+                        </tbody></table>
+                    </layout>
+                                        
+
+
+
+                    <layout label="Text with right-aligned image">
+                        <table class="w580" width="580" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr>
+                                <td class="w580" width="580">
+                                    <p align="left" class="article-title"><singleline label="Title">Новогодний психологический марафон.</singleline></p>
+                                    <table cellpadding="0" cellspacing="0" border="0" align="right">
+                                        <tbody>
+                                        <tr><td class="w30" width="15" height="5"></td><td></td></tr>
+                                    </tbody></table>
+                                    <p>
+                                        <b style="font-size: 11pt; font-family: serif; float: right;">Яркое, брендовое, событие, создающее переход в лучший 2014 год!</b>
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <div>
+                                        <img src="http://s5.hostingkartinok.com/uploads/images/2013/12/2ccc09f7c306367bae080b7ba4730d02.png" width="250" style="float:left; margin-right: 10px">
+                                    </div>
+                                    <div align="left" class="article-content">
+                                        <multiline label="Description">
+
+                                            <span><a style="font-weight: bold; white-space: nowrap;">27 декабря 2013 г</a> Мы прикоснемся к этому в великолепном, гостеприимном и  светлом пространстве Миры</span>
+                                            <p style="color: #cfb53b;">"Тысячи участников получают великолепные результаты и на волне потока и скорости влетают в новый год"</p>
+                                            <span>Выбирать только лучшие сценарии года, задавать великолепный переход, позволить и реализовать для себя роскошь формирования лучшего круга общения, раскрыть максимально свой заложенный талант и потенциал, познакомиться со своим внутренним гением, позволить своим желаниям произойти в следующем году, и не просто позволить – запланировать их, так как такие технологии существуют</span>
+                                            <p>
+                                                В эти волшебные предновогодние дни все становится доступно, весь мир загадывает желания и работает на воплощение мечты, мы словно совершаем магический переход из старого в новое, оставив позади все ненужное, отжившее, лишнее. Давайте подарим своей Мечте силу для ее воплощения в жизнь! Нам приснится невероятный сон Короля и сон Королевы, в котором возможно всё и этот сон вскоре станет явью!
+                                            </p>
+                                        </multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="10"></td></tr>
+                        </tbody></table>
+                    </layout>
+
+
+                    <layout label="Text with full-width image">
+                        <table class="w580" width="580" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr>
+                                <td class="w580" width="580">
+                                    <p align="left" class="article-title"><singleline label="Title">Синергия партнерских и семейных отношений</singleline></p>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="15"></td></tr>
+                            <tr>
+                                <td class="w580" width="580">
+                                    <div>
+                                        <img src="http://s3.hostingkartinok.com/uploads/images/2013/12/ce35e1c1592e63098ea2bc2d25f0fbee.png" width="260" style="float:left; margin-right: 10px">
+                                    </div>
+                                    <div align="left" class="article-content">
+                                        <multiline label="Description">
+                                            <span><a style="font-weight: bold;">4-5 января 2014 г</a> приглашаем Вас к участию в семинаре Синергия партнерских и семейных отношений</span>
+                                            <br>
+                                            <br>
+                                            <span style="font-weight: bold; text-align: justify;"> Вы ищите свою половинку? Хотите знать, по каким критериям вы узнаете "своего человека"?  Не желаете ошибиться с выбором и понимать сильные стороны и ресурсы вашего союза?</span>
+                                            <br>
+                                            <br>
+                                              Давайте обратимся к современным знаниям по синергетическому партнерству и древней системе парных архетипов. Давайте комплексно посмотрим на союз мужчины и женщины. Исследуем отношения и проживем сценарии с разных сторон. Посмотрим, какие сценарные   модели повторяются в вашей жизни, успешные ли они. И как осуществить переход на единственно правильную синергетическую, взаимно усиливающую модель отношений, подкрепленную знаниями об истинных архетипических союзах </span>
+                                        </multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="10"></td></tr>
+                        </tbody></table>
+                    </layout>
+
+                    <p style="font-size: 10pt; ">Подробные программы во вложении и на сайте. Приглашаем к сотрудничеству.</p>
+
+                    <!--layout label="Text with full-width image">
+                        <table class="w580" width="580" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr>
+                                <td class="w580" width="580">
+                                    <p align="left" class="article-title"><singleline label="Title"><h3>Синергия партнерских и семейных отношений</h3></singleline></p>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="15"></td></tr>
+                            <tr>
+                                <td class="w580" width="580">
+                                    <div>
+                                        <img src="http://s5.hostingkartinok.com/uploads/images/2013/11/1c473cfbfd358b1381751bade0f7cc6b.png" width="200" style="float:left; margin-right: 10px">
+                                    </div>
+                                    <div align="left" class="article-content">
+                                        <multiline label="Description">
+                                            <span><a style="font-weight: bold;">4-5 декабря 2013 г</a> приглашаем  Вас  к участию в семинаре  Синергия партнерских и семейных отношений</span>
+                                            <br>
+                                            <br>
+                                            <span style="font-weight: bold; text-align: justify;">Этот практический семинар крайне полезен  людям, заинтересованным в раскрытии механизмов партнерства, осуществлении перехода от компенсаторной модели партнерства к синергетическому взаимодействию,  взаимному усилению и раскрытию потенциала себя и партнера, переходу на новый уровень качества жизни.</span>
+                                            <br>
+                                            <br>
+                                            <span>Семинар сочетает древние традиции и современный взгляд на партнерство, включая такие тренды времени как синергия, или взаимное усиление, вхождение в поток, системное видение, раскрытие потенциала и согласование компетенций. </span>
+                                        </multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="10"></td></tr>
+                        </tbody></table>
+                    </layout-->
+                                        
+
+                    <layout label="Text with right-aligned image">
+                        <table class="w580" width="580" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr>
+                                <td class="w580" width="580">
+                                    <p align="left" class="article-title"><singleline label="Title"><h3>Автор проекта и ведущий  тренер-модератор:</h3></singleline></p>
+
+                                    <div>
+                                        <img src="http://s5.hostingkartinok.com/uploads/images/2013/11/9f5c015f52df639097328fde1dff2279.png" width="200" style="float: right; margin-left: 10px">
+                                    </div>
+                                    <div align="left" class="article-content">
+                                        <multiline label="Description">
+                                            <div align="left">
+                                                <p>
+                                                    <b>Грабарь Елена  Николаевна</b> – Управляющий партнер Академии ментальной эволюции человека», руководитель «Центра практической психологии и бизнес-консалтинга», бизнес-тренер, коуч, персональный консультант, с 1993г на рынке бизнес-консалтинга, коуч «Master Certified Coach», 2004г. CII (Coaching International Institute, Canada).
+                                                </p>
+                                                <p>
+                                                    <b>Профессиональная компетенция:</b> Разработка и проведение открытых и корпоративных тренинговых программ, конференций и событий в области управления ресурсами сознания, раскрытия человеческого потенциала. Проведение индивидуальных консультаций, ВИП- коучинг. Разработка и проведение инновационных тренинговых проектов, программ по интерактивному  моделированию.
+                                                </p>
+                                                <p>
+                                                    Автор и организатор нескольких российских и международных проектов, среди них: Интерактивная конференция для руководителей «Гений – искусство вызова» Сочи 2010г, Тренинговая конференция «Путешествие по Италии» 2008г, Интерактивный театр «I – Teatro» Москва, «Англия – Земля королей. Лондон - город гениев», Лондон, Эдинбург 2012г, «Стратегии Гениев» Израиль 2013г и др.
+                                                </p>
+                                                <br>
+                                                <p>
+                                                    Телефон для записи: +7 915 048 74 18,  <b>Елена Николаевна</b>
+                                                </p>
+
+                                                <span style="font-size: 14pt">Официальный  сайт организации: </span> <a href="http://academy-club.org/">academy-club.org</a>
+                                            </div>
+
+                                            <p>Рады будем ответить на Ваши вопросы.</p>
+                                            <!--С уважением, руководитель международных проектов Академии ментальной эволюции человека Инна Ильина-->
+
+
+                                            <!--p>+7 923 100 04 49,</p>
+                                            <p>+7 915 048 74 18</p>
+                                            <a href="mailto:evgil@mail.ru">evgil@mail.ru,</a>
+                                            <p>
+                                                Skype: <a href="skype:in357na?chat">in357na</a>
+                                            </p--
+                                            >
+                                        </multiline>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr><td class="w580" width="580" height="10"></td></tr>
+                        </tbody></table>
+                    </layout>
+
+                </repeater>
+            </td>
+            <td class="w30" width="30"></td>
+        </tr>
+    </tbody></table>
+</td></tr>
+                <tr><td class="w640" width="640" height="15" bgcolor="#ffffff"></td></tr>
+                
+                <tr>
+                <td class="w640" width="640">
+    <table id="footer" class="w640" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#c7c7c7">
+        <tbody><tr><td class="w30" width="30"></td><td class="w580 h0" width="360" height="30"></td><td class="w0" width="60"></td><td class="w0" width="160"></td><td class="w30" width="30"></td></tr>
+        <tr>
+            <td class="w30" width="30"></td>
+            <td class="w580" width="360" valign="top">
+            <span class="hide"><p id="permission-reminder" align="left" class="footer-content-left"></p></span>
+            </td>
+            <td class="hide w0" width="60"></td>
+            <td class="hide w0" width="160" valign="top">
+            <p id="street-address" align="right" class="footer-content-right"></p>
+            </td>
+            <td class="w30" width="30"></td>
+        </tr>
+        <tr><td class="w30" width="30"></td><td class="w580 h0" width="360" height="15"></td><td class="w0" width="60"></td><td class="w0" width="160"></td><td class="w30" width="30"></td></tr>
+    </tbody></table>
+</td>
+                </tr>
+                <tr><td class="w640" width="640" height="60"></td></tr>
+            </tbody></table>
+        </td>
+	</tr>
+</tbody></table></body></html>
