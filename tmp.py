@@ -3,7 +3,7 @@ __author__ = 'wiseman'
 from email import *
 
 
-fileT = open("contacts.txt", "r")
+fileT = open("getEmails/contacts.txt", "r")
 
 
 class contact():

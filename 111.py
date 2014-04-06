@@ -21,7 +21,7 @@ class contact():
 
 """
 
-emails_file2 = open("cnt.txt", "rU")
+emails_file2 = open("getEmails/cnt.txt", "rU")
 addresses = []
 emails = []
 
@@ -57,7 +57,7 @@ msg['Subject'] = 'Наши программы.'
 msg['From'] = me
 msg['To'] = ' '
 
-htmlFile = open("tableHtml1.html", "rU")
+htmlFile = open("html/tableHtml1.html", "rU")
 
 htmlFile = htmlFile.read()
 
