@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f692db87-d567-4474-8358-343ccb05124c" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\111.html" afterPath="$PROJECT_DIR$/html/111.html" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\111.txt" afterPath="$PROJECT_DIR$/getEmails/111.txt" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\cnt.txt" afterPath="$PROJECT_DIR$/getEmails/cnt.txt" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\contacts.txt" afterPath="$PROJECT_DIR$/getEmails/contacts.txt" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\mail.html" afterPath="$PROJECT_DIR$/html/mail.html" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\tableHtml.html" afterPath="$PROJECT_DIR$/html/tableHtml.html" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\tableHtml1.html" afterPath="$PROJECT_DIR$/html/tableHtml1.html" />
-      <change type="MOVED" beforePath="C:\Users\wiseman\CODE\pythonMailer\tmp.html" afterPath="$PROJECT_DIR$/html/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/genialnosti_table.html" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\Finansist.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\Marafon_new.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\Novogodny_marafon_maski_2013g.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\Partnersky_seminar.doc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\SINERGIYa_PARTNERSTVA.docx" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wiseman\CODE\pythonMailer\docs\SP_new.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/111.py" afterPath="$PROJECT_DIR$/111.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp.py" afterPath="$PROJECT_DIR$/tmp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonMailer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f692db87-d567-4474-8358-343ccb05124c" time="1396784162895" ignored="false" />
+    <file path="/Dummy.txt" changelist="f692db87-d567-4474-8358-343ccb05124c" time="1396857087208" ignored="false" />
+    <file path="/genialnosti_table.html" changelist="f692db87-d567-4474-8358-343ccb05124c" time="1396929888709" ignored="false" />
+    <file path="/111.py" changelist="f692db87-d567-4474-8358-343ccb05124c" time="1396930463504" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +36,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="111.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="111.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="66" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="114" column="0" selection-start="3773" selection-end="3773" vertical-scroll-proportion="2.3959854">
+              <folding>
+                <element signature="e#32#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/mail.html">
+      <file leaf-file-name="genialnosti_table.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/genialnosti_table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="416" column="27" selection-start="19659" selection-end="19659" vertical-scroll-proportion="-4.1764708">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#layout#2;n#repeater#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#multiline#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#layout#2;n#repeater#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1396929923205" expanded="true" signature="7958:8083" placeholder="..." />
+                <marker date="1396929923205" expanded="true" signature="8002:8075" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +74,14 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/html/genialnosti_table.html" />
+        <option value="$PROJECT_DIR$/111.py" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -156,6 +162,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonMailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonMailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonMailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonMailer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genialnost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -167,8 +205,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="C:/Enviroment/python/python2.7.6/python.exe" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -179,6 +217,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wiseman\CODE\pythonMailer\html" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wiseman\CODE\pythonMailer\getEmails" />
       <recent name="C:\Users\wiseman\CODE\pythonMailer\html" />
@@ -203,6 +244,13 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -235,13 +283,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -319,7 +367,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -327,7 +375,9 @@
     <entry file="file://$PROJECT_DIR$/111.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="66" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#32#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -335,6 +385,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="525" selection-end="525" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/tableHtml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="74" selection-start="873" selection-end="873" vertical-scroll-proportion="-9.807693">
+          <folding>
+            <marker date="1396583639172" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396583639172" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/tableHtml1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="370" selection-end="370" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <marker date="1396583640035" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396583640035" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/genialnosti_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="416" column="27" selection-start="19659" selection-end="19659" vertical-scroll-proportion="-4.1764708">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#layout#2;n#repeater#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#multiline#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#layout#2;n#repeater#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1396929923205" expanded="true" signature="7958:8083" placeholder="..." />
+            <marker date="1396929923205" expanded="true" signature="8002:8075" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="3773" selection-end="3773" vertical-scroll-proportion="2.3959854">
+          <folding>
+            <element signature="e#32#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

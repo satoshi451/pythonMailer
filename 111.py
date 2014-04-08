@@ -20,6 +20,7 @@ class contact():
         return "sName: " + self.firstName + "; fName: " + self.secondName + "; surName: " + self.surname + "; email: " + self.email
 
 """
+projectPath = "C:/Users/wiseman/CODE/pythonMailer"
 
 emails_file2 = open("getEmails/cnt.txt", "rU")
 addresses = []
@@ -53,11 +54,11 @@ user_name = 'mokusai92'
 user_passwd = 'Ns5(!11PLus'
 
 msg = MIMEMultipart('mixed')
-msg['Subject'] = 'Наши программы.'
+msg['Subject'] = 'Гениальность, Архетипы. Барселона.'
 msg['From'] = me
-msg['To'] = ' '
+msg['To'] = 'Вам'
 
-htmlFile = open("html/tableHtml1.html", "rU")
+htmlFile = open("html/genialnosti_table.html", "rU")
 
 htmlFile = htmlFile.read()
 
@@ -69,20 +70,39 @@ msg.attach(part1)
 #-----------------------------------------------------------------------------------------------------------------------
 # add attach file1
 part = MIMEBase('application', "octet-stream")
-filename = "C:\Users\wiseman\PycharmProjects\mails\Marafon_new.doc"
+filename = projectPath + "/docs/genialnost/Antonio_Gaudi.docx"
 
 part.set_payload(open(filename, "rb").read())
 Encoders.encode_base64(part)
-part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'Подробности о программе МАРАФОН.doc')
+part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'Антонио Гауди.docx')
 msg.attach(part)
 #-----------------------------------------------------------------------------------------------------------------------
-# add attach file
+# add attach file2
 part = MIMEBase('application', "octet-stream")
-filename = "C:\Users\wiseman\PycharmProjects\mails\SP_new.docx"
+filename =  projectPath + "docs/genialnost/Arkhetipy_Sinergia_partnerstva.docx"
 
 part.set_payload(open(filename, "rb").read())
 Encoders.encode_base64(part)
-part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'Подробности о программе СИНЕРГИЯ.doc')
+part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'Архетипы. Синергия партнерства.doc')
+msg.attach(part)
+#-----------------------------------------------------------------------------------------------------------------------
+# add attach file3
+part = MIMEBase('application', "octet-stream")
+filename = projectPath + "docs/genialnost/kurs_po_raskrytiyu_potentsiala_2.docx"
+
+part.set_payload(open(filename, "rb").read())
+Encoders.encode_base64(part)
+part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'курс по раскрытию потенциала 2.doc')
+msg.attach(part)
+#-----------------------------------------------------------------------------------------------------------------------
+
+# add attach file3
+part = MIMEBase('application', "octet-stream")
+filename = projectPath + "docs/Statya_soprovozhdayuschaya_puteshestvennika_Vash_part.docx"
+
+part.set_payload(open(filename, "rb").read())
+Encoders.encode_base64(part)
+part.add_header('Content-Disposition', 'attachment; filename="%s"' % 'Статья сопровождающая путешественника.doc')
 msg.attach(part)
 #-----------------------------------------------------------------------------------------------------------------------
 #exit(2)
