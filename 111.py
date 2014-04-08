@@ -25,16 +25,19 @@ projectPath = "C:/Users/wiseman/CODE/pythonMailer"
 emails_file2 = open("getEmails/cnt.txt", "rU")
 addresses = []
 emails = []
+inna_email = "evgil@mail.ru"
 
 for line in emails_file2.readlines():
     if line[0:len(line)-1] not in addresses and line[0:len(line)-1] != '':
         addresses.append(line[0:len(line)-1])
 
 #addresses = ['evgil@mail.ru']#, 'votrin-banan@mail.ru']
-#addresses = ['votrin.and@yandex.ru']
+addresses = ['votrin.and@yandex.ru']
+
+addresses.append(inna_email)
 print(addresses)
 print len(addresses)
-exit(1)
+#exit(1)
 
 """
 for line in emails_file2.readlines():
@@ -79,7 +82,7 @@ msg.attach(part)
 #-----------------------------------------------------------------------------------------------------------------------
 # add attach file2
 part = MIMEBase('application', "octet-stream")
-filename =  projectPath + "docs/genialnost/Arkhetipy_Sinergia_partnerstva.docx"
+filename =  projectPath + "/docs/genialnost/Arkhetipy_Sinergia_partnerstva.doc"
 
 part.set_payload(open(filename, "rb").read())
 Encoders.encode_base64(part)
@@ -88,7 +91,7 @@ msg.attach(part)
 #-----------------------------------------------------------------------------------------------------------------------
 # add attach file3
 part = MIMEBase('application', "octet-stream")
-filename = projectPath + "docs/genialnost/kurs_po_raskrytiyu_potentsiala_2.docx"
+filename = projectPath + "/docs/genialnost/kurs_po_raskrytiyu_potentsiala_2.doc"
 
 part.set_payload(open(filename, "rb").read())
 Encoders.encode_base64(part)
@@ -98,7 +101,7 @@ msg.attach(part)
 
 # add attach file3
 part = MIMEBase('application', "octet-stream")
-filename = projectPath + "docs/Statya_soprovozhdayuschaya_puteshestvennika_Vash_part.docx"
+filename = projectPath + "/docs/genialnost/Statya_soprovozhdayuschaya_puteshestvennika_Vash_part.doc"
 
 part.set_payload(open(filename, "rb").read())
 Encoders.encode_base64(part)
